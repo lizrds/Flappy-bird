@@ -16,4 +16,10 @@ public class Pipe : MonoBehaviour
             transform.position = new Vector3(6, transform.position.y);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
 }
